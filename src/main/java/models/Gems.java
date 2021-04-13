@@ -10,8 +10,7 @@ public abstract class Gems {
     private GemsType type;
     private TransparencyOfGems transparency;
 
-
-    public Gems(GemsTitle name, double weight, GemsType type,  TransparencyOfGems transparency) {
+    public Gems(GemsTitle name, double weight, GemsType type, TransparencyOfGems transparency) {
         this.name = name;
         this.weight = weight;
         this.type = type;

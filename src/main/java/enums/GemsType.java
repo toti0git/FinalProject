@@ -7,6 +7,6 @@ public enum GemsType {
     public final int gemsTypeValue;
 
     GemsType(int value) {
-    gemsTypeValue=value;
+        gemsTypeValue = value;
     }
 }

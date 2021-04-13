@@ -24,7 +24,6 @@ public class Runner {
             new NewJewelery(GemsTitle.ONYX, 4.0, GemsType.SEMIPRECIOUS, TransparencyOfGems.SEMITRANSLUCENT),
             new NewJewelery(GemsTitle.TOPAZ, 4.0, GemsType.PRECIOUS, TransparencyOfGems.OPAQUE));
 
-
     public static void main(String[] args) {
         NewJewelery newJewelery = new NewJewelery(gems);
         newJewelery.selectGemsForJewelery(gems);

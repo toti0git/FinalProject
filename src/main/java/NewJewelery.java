@@ -20,7 +20,7 @@ public class NewJewelery extends Gems {
     private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     public NewJewelery(List<Gems> gemsList) {
-        this.gemsList = gemsList;
+        this.gemsList=gemsList;
     }
 
     public NewJewelery(GemsTitle name, double weight, GemsType type, TransparencyOfGems transparency) {
